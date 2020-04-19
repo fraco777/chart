@@ -1,8 +1,14 @@
 {
-"2015-07":8128,
- "2015-08":18382,
- "2015-09":41673,
- "2015-10":13745,
- "2015-11":24047
- 
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
